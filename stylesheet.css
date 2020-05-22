@@ -1,7 +1,4 @@
 
-#listleft {
-    float: left;
-}
 
 #listright {
     float: right; 
@@ -16,7 +13,7 @@
 
 
 
-ul {
+ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,12 +21,17 @@ ul {
 }
 
 li {
-    display: inline;
+    display: inline-block;
+   
 }
 
-a {
+header li a {
+    padding: 10px; 
+    text-decoration: none;
     
-    padding: 20px;
-    background-color: rgb(228, 226, 226); 
+}
+
+li a:hover{
+    text-underline-position: below;
 
 }

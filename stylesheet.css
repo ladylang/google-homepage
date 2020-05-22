@@ -1,9 +1,35 @@
 
+#listleft {
+    float: left;
+}
 
+#listright {
+    float: right; 
+}
 
 #logo{
     background-color: rgb(161, 207, 179);
     margin: 100px;
     padding: 50px;
     border: 10px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+li {
+    display: inline;
+}
+
+a {
+    
+    padding: 20px;
+    background-color: rgb(228, 226, 226); 
+
 }

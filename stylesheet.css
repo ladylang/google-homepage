@@ -17,6 +17,11 @@
     
 }
 
+#search {
+    position: absolute;
+    top: 311px; 
+}
+
 .nav {
     
 }
@@ -31,6 +36,30 @@
     border: 10px;
 }
 
+html body {
+    height: 100%; 
+    margin: 0;
+    display: block;
+}
+
+main {
+    text-align: center;
+    
+}
+
+header {
+    position: absolute;
+    margin: 7px 0 0 10px; 
+}
+
+footer {
+    display: block; 
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: rgb(233, 232, 232);
+}
 
 ol {
     list-style-type: none;
@@ -41,27 +70,18 @@ ol {
 
 li {
     display: inline-block;
-    padding: 10px;
+    padding-left: 10px;
    
 }
 
 li a {
     padding: 10px; 
     text-decoration: none;
-    vertical-align: center;
+    
     
 }
 
 li a:hover{
     text-underline-position: below;
 
-}
-
-main {
-    text-align: center;
-    
-}
-
-footer {
-    vertical-align: bottom;
 }

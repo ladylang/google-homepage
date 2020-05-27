@@ -1,16 +1,35 @@
 
+#rcorner1 {
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+}
 
-#listright {
+#rcorner2 {
+    border-radius: 5px;
+    background-color:  grey;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    
+}
+
+.nav {
+    
+}
+
+.listright {
     float: right; 
 }
 
-#logo{
+.logo{
     background-color: rgb(161, 207, 179);
-    margin: 100px;
     padding: 50px;
     border: 10px;
 }
-
 
 
 ol {
@@ -22,16 +41,27 @@ ol {
 
 li {
     display: inline-block;
+    padding: 10px;
    
 }
 
-header li a {
+li a {
     padding: 10px; 
     text-decoration: none;
+    vertical-align: center;
     
 }
 
 li a:hover{
     text-underline-position: below;
 
+}
+
+main {
+    text-align: center;
+    
+}
+
+footer {
+    vertical-align: bottom;
 }

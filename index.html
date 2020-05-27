@@ -7,8 +7,8 @@
 It's background info for the page.-->
 <head>
 
-<title> Google homepage clone </title>
-<link rel="css stylesheet" href="stylesheet.css">
+    <title> Google homepage clone </title>
+    <link rel="css stylesheet" href="stylesheet.css">
 
 </head>
 
@@ -17,48 +17,50 @@ It's background info for the page.-->
 
 <!--The header is the top row on the page.-->
 <header>
-
-<!--navbar-->
-<ol>
-<li><a href="about.asp">About</a></li>
-<li><a href="store.asp">Store</a></li>
-<li id="listright"><a href="signin.asp">Sign In</a></li>
-<li id="listright"><a href="store.asp"><img src="google_icon.png" alt="boxes" 
-    style="width:40px;height:40px;" ></a></li>
-<li id="listright"><a href="images.asp">Images</a></li>
-<li id="listright"><a href="gmail.asp">Gmail</a></li>
-</ol>
-
-
+    <!--top navbar-->
+    <ol class="nav">
+        <li><a href="about.asp">About</a></li>
+        <li><a href="store.asp">Store</a></li>
+        <li class="listright"><a href="signin.asp">Sign In</a></li>
+        <li class="listright"><a href="store.asp"><img src="google_icon.png" alt="boxes" 
+            style="width:40px;height:40px;" ></a></li>
+        <li class="listright"><a href="images.asp">Images</a></li>
+        <li class="listright"><a href="gmail.asp">Gmail</a></li>
+    </ol>
 
 </header>
 
+<main >
 
-<main id="logo">
+    <div>
+        <img src="http://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="google logo">
+    </div>
 
-<img src="http://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-alt="google logo">
+    <!--Search Bar-->
+    <div>
+        <button>
+            <img src="search_icon.png" 
+            style="width:15px; height:15px;">
 
-<!--Search Bar-->
-<div>
-   <button>
-    <img src="search_icon.png" 
-       style="width:15px; height:15px;">
+            <input type="text"  placeholder=""
+            
+            >
 
-    <input type="text"  placeholder="">
+            <img src="mic_icon.png"
+                style="width:10px; height:15px;">
+        </button>
+    </div>
 
-    <img src="mic_icon.png"
-        style="width:10px; height:15px;"
-    </button>
-</div>
+    <div>
+        <button id="rcorner2">
+            <p>Google Search</p>
+        </button>
 
-<button>
-    <p>Google Search</p>
-</button>
-
-<button>
-    <p>I'm Feeling Lucky</p>
-</button>
+        <button id="rcorner2">
+            <p>I'm Feeling Lucky</p>
+        </button>
+    </div>
 
 </main>
 
@@ -66,31 +68,15 @@ alt="google logo">
 <!--This is the footer section and sits at the bottom of the page.-->
 
 <footer>
-
-<!--These buttons are aligned to the left.-->
-<button>
-    <p>Advertising</p>
-</button>
-
-<button>
-    <p>Business</p>
-</button>
-
-<button>
-    <p>How Search Works</p>
-</button>
-
-<!--These buttons are aligned to the right.-->
-<button>
-    <p>Privacy</p>
-</button>
-
-<button>
-    <p>Terms</p>
-</button>
-<button>
-    <p>Settings</p>
-</button>
+<!--bottom navbar-->
+    <ol class="nav">
+        <li><a href="advertising.asp">Advertising</a></li>
+        <li><a href="business.asp">Business</a></li>
+        <li><a href="howsearchworks.asp">How Search Works</a></li>
+        <li class="listright"><a href="settings.asp">Settings</a></li>
+        <li class="listright"><a href="terms.asp">Terms</a></li>
+        <li class="listright"><a href="privacy.asp">Privacy</a></li>
+    </ol>
 </footer>
 
 </body>

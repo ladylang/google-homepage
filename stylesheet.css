@@ -17,7 +17,7 @@
     display: inline-block;
     border-radius: 4px;
     background-color: #f2f2f2;
-    border: 1px solid f2f2f2; 
+    border: 1px solid #f2f2f2;
     padding: 0 6px;
     min-width: 54px;
     height: 36px;
@@ -26,6 +26,12 @@
     color:  #5F6368; 
     font-size: 14px; 
     text-align: center;
+    border-style: none;
+}
+
+.searchbtn:hover {
+    border: 1px solid rgb(118, 118, 118); 
+    box-shadow: 0 1px 1px rgb(231, 230, 230);
 }
 
 .listright {

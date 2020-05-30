@@ -1,5 +1,34 @@
 /* class=. id=# */
 
+#signin {
+    margin-right: 20px;
+    background-color: royalblue;
+    padding: 10px;
+
+}
+
+#text {
+    color: white;
+    font-weight: bold;
+}
+
+#apps {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+#hcenter {
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+#hcenter:hover {
+    text-decoration: underline;
+}
+
+.hdiv{
+    margin: 10px;
+}
 
 .listright {
     float: right; 
@@ -18,7 +47,6 @@
     margin: 0 auto;
 
 }
-
 
 .midbar {
     display: flex;
@@ -101,11 +129,14 @@ html {
 
 main {
     text-align: center;
+    padding-top: 75px;
 }
 
 header {
-    position: absolute;
-    margin: 7px 0 0 10px;
+    display: block;
+    position: fixed;
+    margin: 5px 10px;
+    width: 100%;
      
 }
 
@@ -116,8 +147,7 @@ footer {
     width: 100%;
     padding: 10px 0 10px 0;
     background-color: rgb(233, 232, 232);
-    font-size: 15px; 
-     
+    font-size: 15px;   
 }
 
 header li a {
@@ -126,6 +156,10 @@ header li a {
 
 footer li a {
     color: #5F6368;
+}
+
+footer li a:hover {
+    text-decoration: underline;
 }
 
 ol {
@@ -147,8 +181,4 @@ li a {
     
 }
 
-li a:hover{
-    text-underline-position: below;
-
-}
 
